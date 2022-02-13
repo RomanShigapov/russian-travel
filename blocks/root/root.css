@@ -1,0 +1,9 @@
+.root {
+    background-color: #2A2C2F;
+    width: 320px;
+    height: 4000px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: #FFFFFF
+}
