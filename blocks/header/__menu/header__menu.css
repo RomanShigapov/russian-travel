@@ -1,8 +1,5 @@
 .header__menu {
     width: 62px;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
+    align-self: flex-end;
+    padding-bottom: 7px;
 }
