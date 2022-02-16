@@ -2,7 +2,6 @@
     margin: 0;
     background-image: url(../../../images/lead-polka.jpg);
     width: 100%;
-    height: 200px;
     object-fit: contain;
     display: block;
 }

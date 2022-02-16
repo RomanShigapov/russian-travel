@@ -1,6 +1,4 @@
 .root {
-    min-width: 320px;
-    height: 4000px;
     display: flex;
     flex-flow: column;
     align-items: center;

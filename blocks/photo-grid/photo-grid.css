@@ -1,3 +1,4 @@
 .photo-grid {
+    width: 90%;
     display: grid;
 }
