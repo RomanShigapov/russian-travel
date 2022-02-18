@@ -42,18 +42,20 @@
           </ul>
         </section>
         <section class="photo-grid photo-grid_bounds" aria-label="Секция фотографий">
-          <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Вид из окна поезда">
-          <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Снежные вершины в облаках">
-          <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Пес на стоге сена в тумане">
-          <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Лес в тумане">
-          <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="УАЗик на льду замерзшего озера">
-          <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Берег байкала">
-          <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Гора Эльбрус">
-          <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="Знак пешеходного перехода на фоне бетонных ограничителей">
-          <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Горы Камчатки">
-          <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Леса и гора Камчатки">
-          <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Берег и скала на нем, замерзшего Байкала">
-          <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Ергаки в тумане">
+          <ul class="photo-grid__items">
+            <li class="photo-grid__item"><img class="photo-grid__photo" src="./images/photo-grid-train.jpg" alt="Вид из окна поезда"></li>
+            <li class="photo-grid__item"><img class="photo-grid__photo" src="./images/photo-grid-atharva-tulsi.jpg" alt="Снежные вершины в облаках"></li>
+            <li class="photo-grid__item"><img class="photo-grid__photo" src="./images/photo-grid-tuman.jpg" alt="Пес на стоге сена в тумане"></li>
+            <li class="photo-grid__item"><img class="photo-grid__photo" src="./images/photo-grid-sochi.jpg" alt="Лес в тумане"></li>
+            <li class="photo-grid__item"><img class="photo-grid__photo" src="./images/photo-grid-arisa.jpg" alt="УАЗик на льду замерзшего озера"></li>
+            <li class="photo-grid__item"><img class="photo-grid__photo" src="./images/photo-grid-baikal.jpg" alt="Берег байкала"></li>
+            <li class="photo-grid__item"><img class="photo-grid__photo" src="./images/photo-grid-elbrus.jpg" alt="Гора Эльбрус"></li>
+            <li class="photo-grid__item"><img class="photo-grid__photo" src="./images/photo-grid-kondratiev.jpg" alt="Знак пешеходного перехода на фоне бетонных ограничителей"></li>
+            <li class="photo-grid__item"><img class="photo-grid__photo" src="./images/photo-grid-kamchatka-1.jpg" alt="Горы Камчатки"></li>
+            <li class="photo-grid__item"><img class="photo-grid__photo" src="./images/photo-grid-kamchatka-2.jpg" alt="Леса и гора Камчатки"></li>
+            <li class="photo-grid__item"><img class="photo-grid__photo" src="./images/photo-grid-baikal-2.jpg" alt="Берег и скала на нем, замерзшего Байкала"></li>
+            <li class="photo-grid__item"><img class="photo-grid__photo" src="./images/photo-grid-ergaki.jpg" alt="Ергаки в тумане"></li>
+          </ul>
         </section>
         <section class="places places_bounds" aria-label="Статьи про места в России">
           <article class="place">
@@ -113,8 +115,17 @@
           </a>
         </section>
       </main>
-      <footer class="footer">
-
+      <footer class="footer footer_bounds">
+        <nav class="footer__menu">
+          <ul class="footer__menu-items">
+            <li class="footer__item"><a class="footer__link" target=".blank" href="https://yandex.ru/maps">Карты</a></li>
+            <li class="footer__item"><a class="footer__link" target=".blank" href="https://yandex.ru/pogoda">Погода</a></li>
+            <li class="footer__item"><a class="footer__link" target=".blank" href="https://rasp.yandex.ru">Расписание</a></li>
+            <li class="footer__item"><a class="footer__link" target=".blank" href="https://calendar.yandex.ru">Календарь</a></li>
+            <li class="footer__item"><a class="footer__link" target=".blank" href="https://travel.yandex.ru">Путешествия</a></li>
+          </ul>
+        </nav>
+        <p class="footer__copyright">© 2022. Sk'arh</p>
       </footer>
     </div>
   </body>
