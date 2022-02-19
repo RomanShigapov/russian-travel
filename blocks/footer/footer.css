@@ -1,3 +1,28 @@
 .footer {
-    width: 90%;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 767px) {
+    .footer {
+        flex-direction: row;
+        padding: 0;
+        align-self: center;
+        width: calc(100% - 2 * 24px);
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .footer {
+        width: calc(100% - 2 * 48px);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        width: 1184px;
+    }
 }

@@ -1,3 +1,9 @@
 .footer__menu {
     padding-bottom: 48px;
 }
+
+@media screen and (min-width: 767px) {
+    .footer__menu {
+       padding: 0; 
+    }
+}

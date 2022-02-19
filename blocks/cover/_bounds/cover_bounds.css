@@ -1,3 +1,15 @@
 .cover_bounds {
     margin-bottom: 64px;
 }
+
+@media screen and (min-width: 767px) {
+    .cover_bounds {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .cover_bounds {
+        margin-bottom: 92px;
+    }
+}
