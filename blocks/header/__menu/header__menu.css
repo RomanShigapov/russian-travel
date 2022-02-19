@@ -1,5 +1,11 @@
 .header__menu {
-    width: 62px;
     align-self: flex-end;
     padding-bottom: 7px;
+}
+
+@media screen and (min-width: 767px) {
+    .header__menu {
+        font-size: 24px;
+        padding-bottom: 5px;
+    }
 }
