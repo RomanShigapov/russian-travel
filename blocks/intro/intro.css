@@ -13,8 +13,12 @@
 
 @media screen and (min-width: 1023px) {
     .intro {
-        width: 690px;
-        align-self: flex-start;
-        padding-left: 48px;
+        width: calc(100% - 2 * 48px);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        width: 984px;
     }
 }
