@@ -4,6 +4,24 @@
     list-style-type: none;
     font-size: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 12px;
+}
+
+@media screen and (min-width: 767px) {
+    .photo-grid__items {
+        gap: 16px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .photo-grid__items {
+        gap: 14px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .photo-grid__items {
+        gap: 16px;
+    }
 }
