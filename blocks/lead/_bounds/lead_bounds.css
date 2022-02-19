@@ -1,3 +1,15 @@
 .lead_bounds {
     margin-bottom: 64px;
 }
+
+@media screen and (min-width: 767px) {
+    .lead_bounds {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .lead_bounds {
+        margin-bottom: 92px;
+    }
+}
