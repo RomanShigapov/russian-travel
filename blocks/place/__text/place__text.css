@@ -1,11 +1,10 @@
-.place__website {
-    align-self: end;
+.place__text {
     padding-left: 16px;
     width: calc(100% - 2 * 16px);
 }
 
 @media screen and (min-width: 382px) {
-    .place__website {
+    .place__text {
         padding-left: 0;
         width: 100%;
     }

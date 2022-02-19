@@ -2,3 +2,20 @@
     width: 100%;
 }
 
+@media screen and (min-width: 767px) {
+    .places {
+        width: calc(100% - 2 * 24px);
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .places {
+        width: calc(100% - 2 * 48px);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places {
+        width: 984px;
+    }
+}
