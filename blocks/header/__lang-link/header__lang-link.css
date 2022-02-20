@@ -4,6 +4,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.1;
+    transition: opacity 0.2s ease;
 }
 
 .header__lang-link:hover {

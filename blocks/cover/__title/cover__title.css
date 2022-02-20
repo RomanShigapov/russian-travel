@@ -1,7 +1,7 @@
 .cover__title {
     width: 90%;
     margin: 0;
-    padding-top: calc(100vw * 0.103);
+    /*padding-top: calc(100vw * 0.103);*/
     font-weight: 900;
     font-size: 32px;
     line-height: 1.09;
