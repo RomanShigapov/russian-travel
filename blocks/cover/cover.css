@@ -2,6 +2,19 @@
     width: 100%;
     display: flex;
     position: relative;
+    padding-bottom: 64px;
+}
+
+@media screen and (min-width: 767px) {
+    .cover {
+        padding-bottom: 88px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .cover {
+        padding-bottom: 92px;
+    }
 }
 
 @media screen and (min-width: 1280px) {

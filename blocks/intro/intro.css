@@ -3,17 +3,20 @@
     align-self: center;
     display: flex;
     flex-direction: column;
+    padding-bottom: 64px;
 }
 
 @media screen and (min-width: 767px) {
     .intro {
         width: calc(100% - 2 * 24px);
+        padding-bottom: 88px;
     }
 }
 
 @media screen and (min-width: 1023px) {
     .intro {
         width: calc(100% - 2 * 48px);
+        padding-bottom: 92px;
     }
 }
 
