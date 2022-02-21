@@ -1,7 +1,6 @@
 .cover {
     width: 100%;
-    display: flex;
-    position: relative;
+    align-self: center;
     padding-bottom: 64px;
 }
 
